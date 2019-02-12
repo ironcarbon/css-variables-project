@@ -1,5 +1,8 @@
 /* --- Variables --- */
-
+:root{
+    --theme-color: #073268;
+    --link-color: #4ac6f7;
+}
 /* --- Main styles --- */
 
 h1, h2, h3{
@@ -22,11 +25,11 @@ nav.main-nav ul{
 }
 
 nav a{
-    color: #daa33e;
+    color: var(--link-color);
 }
 
 .banner{
-    background: #3e84da;
+    background: var(--theme-color);
     color: #fff;
     font-size: 1.6em;
     text-align: center;
@@ -48,7 +51,7 @@ nav a{
 }
 
 .spot h2{
-    color: #3e84da;
+    color:var(--theme-color);
 }
 
 .spot p{
@@ -58,7 +61,7 @@ nav a{
 }
 
 .content a{
-    color: #daa33e;
+    color:var(--link-color);
     font-size: 1.2em;
 }
 
